@@ -113,6 +113,15 @@
                     <button class="btn-cart">장바구니에 넣기</button>
                 </div>
             </div>
+
+            <dialog>
+                <p>장바구니에 상품이 담겼습니다.</p>
+                
+                <div class="btn-container">
+                    <button class="btn-shopping" type="button">계속 쇼핑하기</button>
+                    <button class="btn-cart" type="button">장바구니 확인하기</button>
+                </div>
+            </dialog>
         </div>
     </section>
 
@@ -312,6 +321,17 @@
                 subMenu.style.display = 'flex';
             }
         });
+
+        // 장바구니 모달창
+        document.querySelector('.btn-cart').addEventListener
+            ('click', function () {
+                document.querySelector('dialog').showModal();
+            });
+
+        document.querySelector('.btn-shopping').addEventListener
+            ('click', function () {
+                document.querySelector('dialog').close();
+            });
     </script>
 
 </body>

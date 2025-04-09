@@ -241,6 +241,10 @@ header {
         }
     }
 
+    .icon ul li {
+        margin: 0;
+    }
+    
     .mypage,
     .bag {
         display: none;
@@ -797,6 +801,7 @@ footer a {
             .info-right-t {
                 justify-content: space-between;
                 margin-top: 20px;
+                font-size: 15px;
             }
 
             .cs-wrap {

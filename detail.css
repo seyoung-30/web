@@ -176,7 +176,7 @@ header {
 
                 display: none;
             }
-            
+
 
             .sub-menu-a,
             .sub-menu-b {
@@ -238,6 +238,10 @@ header {
         .nav-bar {
             display: none;
         }
+    }
+
+    .icon ul li {
+        margin: 0;
     }
 
     .mypage,
@@ -304,8 +308,6 @@ header {
                 font-weight: 600;
                 color: rgb(82, 200, 255);
             }
-
-
 
             .quantity {
                 background-color: #faf7f3;
@@ -391,6 +393,52 @@ header {
                 }
 
 
+            }
+        }
+
+        dialog {
+            width: 400px;
+            height: 150px;
+            background-color: white;
+            border-radius: 15px;
+            border: 1px solid #d0ac88;
+            padding: 5px 20px;
+            padding-top: 20px;
+            text-align: center;
+            margin: 150px auto;
+            color: black;
+            position: absolute;
+            top: 200px;
+            left: 50%;
+            transform: translateX(-50%);
+            box-shadow: 6px 3px 13px -1px rgba(0, 0, 0, 0.26);
+            -webkit-box-shadow: 6px 3px 13px -1px rgba(0, 0, 0, 0.26);
+            -moz-box-shadow: 6px 3px 13px -1px rgba(0, 0, 0, 0.26);
+
+            p{
+                font-size: 20px;
+                padding-top: 10px;
+            }
+
+            .btn-container{
+                /* background-color: red; */
+                width: 100%;
+                height: 50%;
+                display: flex;
+                justify-content: center;
+                padding-top: 30px;
+
+                button{
+                    height: 100%;
+                    width: 45%;
+                    background-color: transparent;
+                    border: none;
+                    font-size: 16px;
+                }
+
+                button:active {
+                    color: #ac8a69;
+                }
             }
         }
     }
@@ -731,6 +779,7 @@ footer a {
             .info-right-t {
                 justify-content: space-between;
                 margin-top: 20px;
+                font-size: 15px;
             }
 
             .cs-wrap {
