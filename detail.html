@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/레이지디 파비콘.png">
+    <link rel="stylesheet" href="detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>레이지디 Lazy D</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-inner1">
+            <nav>
+                <ul>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">주문조회</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-inner2">
+            <!-- 수정된 부분 -->
+            <div class="none">
+                <ul class="menu">
+                    <li class="fa-solid fa-bars">
+                        <div class="sub-menu">
+                            <ul class="sub-menu-a">
+                                <li class="a-item"><a href="#">회원가입</a></li>
+                                <li class="a-item"><a href="#">로그인</a></li>
+                                <li class="a-item"><a href="#">주문조회</a></li>
+                                <li class="a-item"><a href="#">고객센터</a></li>
+                            </ul>
+
+                            <ul class="sub-menu-b">
+                                <li class="b-item SHOP"><a href="/">SHOP</a></li>
+                                <li class="b-item CLASS"><a href="/">CLASS</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="left">
+                <a href="/" class="logo"></a>
+
+                <nav class="nav-bar">
+                    <ul>
+                        <li class="shop"><a href="#">SHOP</a></li>
+                        <li class="class"><a href="#">CLASS</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <nav class="icon">
+                <ul>
+                    <li class="search-bar"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li class="mypage"><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                    <li class="bag"><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="buy">
+        <div class="buy-container">
+            <div class="buy-left">
+                <img src="image/병풀허브솝.jpg" alt="">
+            </div>
+
+            <div class="buy-right">
+                <h2>상품명</h2>
+
+                <div class="buy-info">
+                    <p class="blue">판매가</p>
+                    <p class="blue">35,000원</p>
+                    <p>국내·해외배송</p>
+                    <p>국내배송</p>
+                    <p>배송방법</p>
+                    <p>택배</p>
+                    <p>배송비</p>
+                    <p>3,500원</p>
+                </div>
+
+                <!-- <div class="divider"></div> -->
+
+                <div class="quantity">
+                    <p class="name">상품명</p>
+
+                    <div class="quantity-btn-wrap">
+                        <button class="btn-minus" type="button">-</button>
+                        <input type="text" id="quantity" value="1" readonly>
+                        <button class="btn-plus" type="button">+</button>
+                    </div>
+
+                    <p class="price">35,000원</p>
+                </div>
+
+                <div class="total">TOTAL 33,500원</div>
+
+                <div class="btn-wrap">
+                    <button class="btn-buy">구매하기</button>
+                    <button class="btn-cart">장바구니에 넣기</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="best-review">
+        <div class="review-top">
+            <h3>Best Review</h3>
+            <button type="button">view more</button>
+        </div>
+
+        <div class="img-wrap">
+            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjEyMjBfNjgg%2FMDAxNjcxNTExNTc1MDE1.fHFpznwdVTPWfL4If3Tw2F7KbT9Qzbhh0VVOfkGC68Qg.F9jQRY4ZdwdiZMJm3ORD2v7FKsgXc0a0MGSejtWZ-pgg.JPEG.loving__pet%2F%25B0%25AD%25BE%25C6%25C1%25F6_%25BC%25A4%25C7%25AA.jpg&type=a340"
+                alt="">
+            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA5MjNfMzkg%2FMDAxNjk1NDMxMzYwOTI4.gbilRmEO3zVgrazUKAz8gMAicg3JZWxdae28I0BPqMog.d1N2I10s-AdTBQ_FUcoFOEh37XRCOYL5TF6xw4ilVzog.JPEG.emilyyoon_35%2F1695431360723.jpg&type=a340"
+                alt="">
+            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA1MTJfMTMy%2FMDAxNjgzODcwNDg3Mjkx.cmxdAJ3D2NbibpApyngzSNMgdiaWl-yz6NEbn1tEcaIg.UmhweYRn3IphELkIHYgwXGUCaB8A-n-UdTmQXWQIoO8g.PNG.copsr325%2FIMG_7403.PNG&type=a340"
+                alt="">
+            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA1MDFfMjAz%2FMDAxNjgyOTQ3MTc4ODY5.d-g-QWX-bY-MXv4DgrAzAFW35brA9HPh3YyR0412W9wg.woGGdiiwgBF2oswBUk_GrHSiLU0TSWShSAduKcHofV0g.JPEG.jh-918%2FIMG_6968.JPG&type=a340"
+                alt="">
+            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA4MjRfMjg1%2FMDAxNjkyODgyMDgxNTMx.KOZTqMK9h2WuYQKbbvca5PoUS8SGPj25fQQ9h67ueoQg.TvJkA1ViG0hr0CW160vnj99zdaIW9hS3_j6KDbk5mmMg.JPEG.dramastar0%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5.jpg&type=a340"
+                alt="">
+            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA1MDJfOTMg%2FMDAxNzE0NjI4NjY5MjI2.qZh7f7AiHIM37a-tdcaWom8VBoB74yNci9lt9iPrs7Ag.gpgC_nRAOQgaLdXwSoH9XIltUhGRnziHh3JhtDI_agcg.JPEG%2FKakaoTalk_20240502_103245495_01.jpg&type=a340"
+                alt="">
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="info-btn-wrap">
+            <button class="btn-details" type="button">Details</button>
+            <button class="btn-review" type="button">Review</button>
+            <button class="btn-qna" type="button">Q&A</button>
+            <button class="btn-rnd" type="button">Return & Delivery</button>
+        </div>
+
+        <div class="details">
+            <img src="https://cafe24.poxo.com/ec01/lion914/1A66J+oWTqAze9jtV45BSmGM+ToUImYahGhs2QodRXXvSw4gCAsNcaZ0KCKhnnTU/fsMzNHo7VfjyHGBAt7tpg==/_/web/upload/NNEditor/20241013/copy-1728829680-1.jpg"
+                alt="">
+            <img src="https://cafe24.poxo.com/ec01/lion914/1A66J+oWTqAze9jtV45BSmGM+ToUImYahGhs2QodRXXvSw4gCAsNcaZ0KCKhnnTU/fsMzNHo7VfjyHGBAt7tpg==/_/web/upload/NNEditor/20241013/copy-1728829680-2.jpg"
+                alt="">
+            <img src="https://cafe24.poxo.com/ec01/lion914/1A66J+oWTqAze9jtV45BSmGM+ToUImYahGhs2QodRXXvSw4gCAsNcaZ0KCKhnnTU/fsMzNHo7VfjyHGBAt7tpg==/_/web/upload/NNEditor/20241013/copy-1728829681-4.jpg"
+                alt="">
+            <img src="https://cafe24.poxo.com/ec01/lion914/1A66J+oWTqAze9jtV45BSmGM+ToUImYahGhs2QodRXXvSw4gCAsNcaZ0KCKhnnTU/fsMzNHo7VfjyHGBAt7tpg==/_/web/upload/NNEditor/20241013/copy-1728829680-5.jpg"
+                alt="">
+            <img src="https://cafe24.poxo.com/ec01/lion914/1A66J+oWTqAze9jtV45BSmGM+ToUImYahGhs2QodRXXvSw4gCAsNcaZ0KCKhnnTU/fsMzNHo7VfjyHGBAt7tpg==/_/web/upload/NNEditor/20241013/copy-1728829680-6.jpg"
+                alt="">
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-inner">
+            <div class="info-left">
+                <div class="footer-logo"></div>
+
+                <div class="basic-info">
+                    <h3>쇼핑몰 기본정보</h3>
+
+                    <div class="basic-info-list">
+                        <div class="company-name">
+                            <span class="name">상호명</span>
+                            <span class="value">레이지디 (Lazy D)</span>
+                        </div>
+
+                        <div class="president-name">
+                            <span class="name">대표자명</span>
+                            <span class="value">황세영</span>
+                        </div>
+
+                        <div class="address">
+                            <span class="name">사업장 주소</span>
+                            <span class="value">광주광역시 광산구 월계동 867-9</span>
+                        </div>
+
+                        <div class="president-phone">
+                            <span class="name">대표 전화</span>
+                            <a href="tel:82-10-1234-5678">010-1234-5678</a>
+                        </div>
+
+                        <div class="company-regno1">
+                            <span class="name">사업자 등록번호</span>
+                            <span class="value">000-00-00000</span>
+                        </div>
+
+                        <div class="company-regno2">
+                            <span class="name">통신판매업 신고번호</span>
+                            <span class="value">0000-광주북구-0000</span>
+                        </div>
+
+                        <div class="opo-name">
+                            <span class="name">개인정보보호책임자</span>
+                            <span class="value">황세영</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-right">
+                <nav>
+                    <ul class="info-right-t">
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이용안내</a></li>
+                    </ul>
+                </nav>
+
+                <div class="cs-wrap">
+                    <div class="cs-info">
+                        <h3>고객센터 정보</h3>
+
+                        <div class="cs-info-list">
+                            <div class="email">
+                                <span class="name">상담/주문 이메일</span>
+                                <a href="mailto:lazydog3003@gamil.com">lazydog3003@gmail.com</a>
+                            </div>
+
+                            <div class="phone">
+                                <span class="name">상담/주문전화</span>
+                                <a href="tel:82-10-1234-5678">010-1234-5678</a>
+                            </div>
+
+                            <div class="runtime">
+                                <span class="name">CS운영시간</span>
+                                <span class="value"> 영업일 기준 10:00~17:00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bank">
+                        <h3>결제 정보</h3>
+
+                        <div class="bank-info">
+                            <span class="name">무통장 계좌정보</span>
+                            <span class="value">카카오뱅크 3333-00-0000000 황세영</span>
+                        </div>
+                    </div>
+
+                    <div class="sns">
+                        <h3>SNS</h3>
+
+                        <ul class="sns-wrap">
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Youtube</a></li>
+                            <li><a href="#">Kakao</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 이거 있어야 jQuery 사용 가능 -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+        </script>
+
+    <script>
+        const minusBtn = document.querySelector('.btn-minus');
+        const plusBtn = document.querySelector('.btn-plus');
+        const quantityInput = document.getElementById('quantity');
+        const totalEl = document.querySelector('.total');
+        const priceText = document.querySelector('.price').textContent;
+
+        const price = parseInt(priceText.replace(/[^0-9]/g, ''), 10);
+        const shippingFee = 3500;
+
+        function updateTotal(quantity) {
+            const totalPrice = price * quantity + shippingFee;
+            totalEl.textContent = `TOTAL ${totalPrice.toLocaleString()}원`;
+        }
+
+        plusBtn.addEventListener('click', () => {
+            let currentQuantity = parseInt(quantityInput.value, 10);
+            currentQuantity += 1;
+            quantityInput.value = currentQuantity;
+            updateTotal(currentQuantity);
+        });
+
+        minusBtn.addEventListener('click', () => {
+            let currentQuantity = parseInt(quantityInput.value, 10);
+            if (currentQuantity > 1) {
+                currentQuantity -= 1;
+                quantityInput.value = currentQuantity;
+                updateTotal(currentQuantity);
+            }
+        });
+
+        updateTotal(parseInt(quantityInput.value, 10));
+
+
+        // 수정된 부분
+        document.querySelector('.fa-bars').addEventListener('click', function () {
+            const subMenu = document.querySelector('.sub-menu');
+            if (subMenu.style.display === 'flex') {
+                subMenu.style.display = 'none';
+            } else {
+                subMenu.style.display = 'flex';
+            }
+        });
+    </script>
+
+</body>
